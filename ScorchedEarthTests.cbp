@@ -31,7 +31,12 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
+			<Add directory="../../Apps/UnitTest++-1.3/UnitTest++-1.3/src" />
 		</Compiler>
+		<Linker>
+			<Add library="..\..\Apps\UnitTest++-1.3\UnitTest++-1.3\Debug\libUnitTest++.a" />
+			<Add directory="../../Apps/UnitTest++-1.3/UnitTest++-1.3/Debug" />
+		</Linker>
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
