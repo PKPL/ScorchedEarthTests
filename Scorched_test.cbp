@@ -37,8 +37,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="ai.h" />
 		<Unit filename="drawing_test.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="shot_test.h" />
 		<Unit filename="unit_test.h" />
 		<Extensions>
 			<code_completion />
