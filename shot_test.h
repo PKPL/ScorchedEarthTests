@@ -3,9 +3,10 @@
 
 #include "C:\GitHub\ScorchedEarth\shot.h"
 #include "C:\GitHub\ScorchedEarth\shot_final_equation.c"
+#include "C:\GitHub\ScorchedEarth\drawing_shots.h"
 #include "C:\GitHub\ScorchedEarth\maps_create.c"
 #include "C:\GitHub\ScorchedEarth\shot_formula.c"
-#include "C:\GitHub\ScorchedEarth\drawing_shots.h"
+
 
 
 //SHOT_FINAL_EQUATION
