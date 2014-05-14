@@ -37,8 +37,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="drawing_test.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="shot.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
