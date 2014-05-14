@@ -1,7 +1,11 @@
 #ifndef SHOT_H_INCLUDED
 #define SHOT_H_INCLUDED
 
-#include "C:\GitHub\ScorchedEarth\shot.c"
+
+#include "C:\GitHub\ScorchedEarth\shot_final_equation.c"
+
+
+//SHOT_FINAL_EQUATION
 
 TEST(initializeMissileTest){
     missile_data* MISSILE = initializeMissile(10, 10);
@@ -52,6 +56,9 @@ TEST_FIXTURE(fixCreateMissileData, test){
         CHECK_ARRAY_EQUAL(test_data[i], data, 2);
     }
 }
+
+
+//SHOT_FORMULA
 
 
 #endif // SHOT_H_INCLUDED
