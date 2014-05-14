@@ -1,10 +1,9 @@
-#include <iostream>
 #include <UnitTest++.h>
+#include "shot_final_equation_test.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-   return UnitTest :: RunAllTests ();
+    return UnitTest::RunAllTests();
 }

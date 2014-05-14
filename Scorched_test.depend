@@ -1,0 +1,123 @@
+# depslib dependency file v1.0
+1398757500 source:c:\temp\c_test_cb\scorched_test\main.cpp
+	<UnitTest++.h>
+	"shot_final_equation_test.h"
+
+1359706174 c:\apps\unittest++-1.3\src\unittest++.h
+	"Config.h"
+	"Test.h"
+	"TestList.h"
+	"TestSuite.h"
+	"TestResults.h"
+	<new>
+	"TestMacros.h"
+	"CheckMacros.h"
+	"TestRunner.h"
+	"TimeConstraint.h"
+
+1359706174 c:\apps\unittest++-1.3\src\config.h
+
+1359706174 c:\apps\unittest++-1.3\src\test.h
+	"TestDetails.h"
+
+1359706174 c:\apps\unittest++-1.3\src\testdetails.h
+
+1359706174 c:\apps\unittest++-1.3\src\testlist.h
+
+1359706174 c:\apps\unittest++-1.3\src\testsuite.h
+
+1359706174 c:\apps\unittest++-1.3\src\testresults.h
+
+1359706174 c:\apps\unittest++-1.3\src\testmacros.h
+	"Config.h"
+	"Posix/SignalTranslator.h"
+
+1359706174 c:\apps\unittest++-1.3\src\posix\signaltranslator.h
+	<setjmp.h>
+	<signal.h>
+
+1359706174 c:\apps\unittest++-1.3\src\checkmacros.h
+	"Checks.h"
+	"AssertException.h"
+	"MemoryOutStream.h"
+	"TestDetails.h"
+
+1359706174 c:\apps\unittest++-1.3\src\checks.h
+	"Config.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+
+1359706174 c:\apps\unittest++-1.3\src\memoryoutstream.h
+	"Config.h"
+	<sstream>
+	<cstddef>
+
+1359706174 c:\apps\unittest++-1.3\src\assertexception.h
+	<exception>
+
+1359706174 c:\apps\unittest++-1.3\src\testrunner.h
+
+1359706174 c:\apps\unittest++-1.3\src\timeconstraint.h
+	"TimeHelpers.h"
+
+1359706174 c:\apps\unittest++-1.3\src\timehelpers.h
+	"Config.h"
+	"Posix/TimeHelpers.h"
+	"Win32/TimeHelpers.h"
+
+1359706174 c:\apps\unittest++-1.3\src\posix\timehelpers.h
+	<sys/time.h>
+
+1359706174 c:\apps\unittest++-1.3\src\win32\timehelpers.h
+	"../Config.h"
+
+1398756541 c:\temp\c_test_cb\scorched_test\ai_test.h
+	"C:\Temp\C_test_cb\ScorchedEarth\ai.c"
+
+1398683409 c:\temp\c_test_cb\scorchedearth\ai.c
+	"ai.h"
+	"unit.h"
+	<math.h>
+	<stdlib.h>
+	"maps_create.h"
+	<stdbool.h>
+	<time.h>
+
+1397131565 c:\temp\c_test_cb\scorchedearth\ai.h
+	"ai_easy.h"
+	"ai_medium.h"
+	"ai_hard.h"
+	<stdbool.h>
+
+1397131565 c:\temp\c_test_cb\scorchedearth\ai_easy.h
+	"maps_create.h"
+	"unit.h"
+
+1397131565 c:\temp\c_test_cb\scorchedearth\maps_create.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1397131565 c:\temp\c_test_cb\scorchedearth\unit.h
+
+1397131565 c:\temp\c_test_cb\scorchedearth\ai_medium.h
+	"maps_create.h"
+	"unit.h"
+
+1396007806 c:\temp\c_test_cb\scorchedearth\ai_hard.h
+
+1359706174 c:\apps\unittest++-1.3\src\reportassert.h
+
+1398767065 c:\temp\c_test_cb\scorched_test\shot_final_equation_test.h
+	"C:\Temp\C_test_cb\ScorchedEarth\shot_final_equation.c"
+
+1398756742 c:\temp\c_test_cb\scorchedearth\shot_final_equation.h
+
+1398756742 c:\temp\c_test_cb\scorchedearth\shot_final_equation.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"shot_final_equation.h"
+
