@@ -37,8 +37,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="drawing_units_test.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="shot_final_equation_test.h" />
+		<Unit filename="test.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
