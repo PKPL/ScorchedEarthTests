@@ -1,5 +1,6 @@
 #include <UnitTest++.h>
-#include "shot_final_equation_test.h"
+#include "shot_test.h"
+#include "drawing_test.h"
 
 int main()
 {

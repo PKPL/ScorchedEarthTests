@@ -1,7 +1,14 @@
-#ifndef AI_TEST_H_INCLUDED
-#define AI_TEST_H_INCLUDED
+#ifndef SHOT_TEST_H
+#define SHOT_TEST_H
 
+#include "C:\GitHub\ScorchedEarth\shot.h"
 #include "C:\GitHub\ScorchedEarth\shot_final_equation.c"
+#include "C:\GitHub\ScorchedEarth\maps_create.c"
+#include "C:\GitHub\ScorchedEarth\shot_formula.c"
+#include "C:\GitHub\ScorchedEarth\drawing_shots.h"
+
+
+//SHOT_FINAL_EQUATION
 
 TEST(initializeMissileTest){
     missile_data* MISSILE = initializeMissile(10, 10);
@@ -13,7 +20,7 @@ TEST(initializeMissileTest){
     CHECK(MISSILE->x_turret_position == 10);
     CHECK(MISSILE->y_turret_position == 10);
 }
-
+//
 TEST(cosAndSinDegrees){
     CHECK_CLOSE(0.7071, cosDegrees(45), 1e-4);
     CHECK_CLOSE(0.7071, sinDegrees(45), 1e-4);
@@ -54,4 +61,16 @@ TEST_FIXTURE(fixCreateMissileData, test){
 }
 
 
-#endif // AI_TEST_H_INCLUDED
+//SHOT_FORMULA
+
+TEST(playerShotTest)
+{
+    int mapLayout[100][80];
+    create_mountain_map(mapLayout);
+    missile_data* MISSILE = initializeMissile(10, 10);
+    CHECK(NULL != MISSILE);
+    playerShot(MISSILE, 30, 30, mapLayout);
+
+}
+
+#endif // SHOT_TEST_H
