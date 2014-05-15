@@ -40,6 +40,7 @@
 		<Unit filename="ai.h" />
 		<Unit filename="drawing_test.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="maps_load_test.h" />
 		<Unit filename="shot_test.h" />
 		<Unit filename="unit_test.h" />
 		<Extensions>

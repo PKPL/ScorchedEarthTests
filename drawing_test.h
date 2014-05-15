@@ -9,6 +9,13 @@
 #include "C:\GitHub\ScorchedEarth\shot_final_equation.c"
 #include "C:\GitHub\ScorchedEarth\drawing_destruction.c"
 
+TEST(drawing_maps_test)
+{
+    int map_layout[100][80] = {{0}};
+
+    create_mountain_map(map_layout);
+    CHECK(NULL != map_layout);
+}
 
 TEST(drawing_destruction_test)
 {
@@ -26,14 +33,6 @@ TEST(drawing_shots_test)
     CHECK(NULL != MISSILE);
 }
 
-TEST(drawing_maps_test)
-{
-    int map_layout[100][80] = {{0}};
-
-    create_mountain_map(map_layout);
-    CHECK(NULL != map_layout);
-}
-
 TEST(drawing_units_test)
 {
     int map_layout[100][80] = {{0}};
@@ -48,11 +47,11 @@ TEST(drawing_units_test)
     {
         for (y = 0; y < 80; y++)
         {
-            if (map_layout[x][y] == 2)
+            if (map_layout[x][y] == 3)
             {
                 counter_player++;
             }
-            else if (map_layout[x][y] == 3)
+            else if (map_layout[x][y] == 2)
             {
                 counter_enemy++;
             }
